@@ -1,0 +1,20 @@
+.app{
+    /*A grid layout consists of a parent element, with one or more child elements.*/
+    /*An HTML element becomes a grid container when its display property is set to grid or inline-grid.*/
+    display:grid;
+    place-items: center;
+    /*Viewport Height (vh) , here its 100% of vieport height (100vh)*/
+    height: 100vh;
+    background-color: #dadbd3;
+}
+
+.app__body{
+    /*A Flexible Layout must have a parent element with the display property set to flex.
+    Direct child elements(s) of the flexible container automatically becomes flexible items.*/
+    display:flex;
+    background-color: #ededed;
+    margin-top:-50px;
+    height:90vh;
+    width:90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+}
