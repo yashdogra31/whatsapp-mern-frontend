@@ -7,7 +7,7 @@ import Pusher from 'pusher-js'
 import axios from './axios'
 import "./Chat.css";
 import {useParams} from 'react-router-dom'
-import firebase from 'firebase';
+//import firebase from 'firebase';
 import { useStateValue } from './StateProvider';
 
 
